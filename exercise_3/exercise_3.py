@@ -11,3 +11,9 @@ class Exercise3:
     
     def add_hour(self):
         self.json_data['time_remaining'] += 60
+
+    def get_items(self):
+        return list(self.json_data['shopping_cart'].keys())
+
+    def get_total(self):
+        return sum(self.json_data['shopping_cart'].values())

@@ -5,8 +5,8 @@ class Triangle:
         self.height = height
         self.base = base
 
-    # Repr function
-    def __repr__(self) -> str:
+    # __str__ function
+    def __str__(self) -> str:
         return f"Triangle: base={self.base}, height={self.height}"
     
     #calculate Hypoteuse

@@ -37,8 +37,8 @@ Sample Input:
     }
 
 ### Output
-customers.json
+customers.json<br>
 ![alt text](image.png)
 
-items.json
+items.json<br>
 ![alt text](image-1.png)

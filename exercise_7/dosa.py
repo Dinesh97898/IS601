@@ -44,7 +44,7 @@ def list_customers():
 def print_customers():
     for customer in list_customers():
         print(f"ID: {customer[0]} Name: {customer[1]} Phone: {customer[2]}")
-        
+#Count function        
 def count_customers():
     result = cursor.execute("SELECT COUNT(*) FROM customers;").fetchone()[0]
     return result

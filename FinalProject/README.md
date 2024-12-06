@@ -1,4 +1,4 @@
-# Dosa Restaurant Backend API
+#  Backend API
 
 This project is a backend API using FastAPI to handle orders in restaurant
 
